@@ -1,0 +1,12 @@
+   0.012852558s  INFO prepare_target{force=false package_id=demo v0.1.0 (/home/anurag-negi000/project/test-ssh/demo) target="demo"}: cargo::core::compiler::fingerprint: fingerprint dirty for demo v0.1.0 (/home/anurag-negi000/project/test-ssh/demo)/Check { test: false }/TargetInner { name: "demo", doc: true, ..: with_path("/home/anurag-negi000/project/test-ssh/demo/src/main.rs", Edition2024) }
+   0.012868270s  INFO prepare_target{force=false package_id=demo v0.1.0 (/home/anurag-negi000/project/test-ssh/demo) target="demo"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   0.012951732s  INFO prepare_target{force=false package_id=clap v4.5.53 target="clap"}: cargo::core::compiler::fingerprint: fingerprint dirty for clap v4.5.53/Check { test: false }/TargetInner { benched: false, ..: lib_target("clap", ["lib"], "/home/anurag-negi000/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/clap-4.5.53/src/lib.rs", Edition2021) }
+   0.012957122s  INFO prepare_target{force=false package_id=clap v4.5.53 target="clap"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   0.013015972s  INFO prepare_target{force=false package_id=clap_builder v4.5.53 target="clap_builder"}: cargo::core::compiler::fingerprint: fingerprint dirty for clap_builder v4.5.53/Check { test: false }/TargetInner { benched: false, ..: lib_target("clap_builder", ["lib"], "/home/anurag-negi000/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/clap_builder-4.5.53/src/lib.rs", Edition2021) }
+   0.013020206s  INFO prepare_target{force=false package_id=clap_builder v4.5.53 target="clap_builder"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+   0.013209382s  INFO prepare_target{force=false package_id=demo v0.1.0 (/home/anurag-negi000/project/test-ssh/demo) target="demo"}: cargo::core::compiler::fingerprint: fingerprint dirty for demo v0.1.0 (/home/anurag-negi000/project/test-ssh/demo)/Check { test: true }/TargetInner { name: "demo", doc: true, ..: with_path("/home/anurag-negi000/project/test-ssh/demo/src/main.rs", Edition2024) }
+   0.013213759s  INFO prepare_target{force=false package_id=demo v0.1.0 (/home/anurag-negi000/project/test-ssh/demo) target="demo"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
+    Checking clap_builder v4.5.53
+    Checking clap v4.5.53
+    Checking demo v0.1.0 (/home/anurag-negi000/project/test-ssh/demo)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.94s
